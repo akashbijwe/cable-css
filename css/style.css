@@ -1,0 +1,435 @@
+body{
+  background-color: #F7F8FA;
+  padding: 0;
+  margin:0;
+} 
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0 !important;
+  height: 0;
+}
+.container{
+  position: relative;
+  margin: 15% auto 0 auto;
+  width: 425px;  
+}
+.pr{
+  position: relative;
+}
+.pa{
+  position: absolute;
+}
+.ftl{
+  float: left;
+}
+.cord1{
+  margin-right: 100px;
+  margin-top: 76px;
+}
+.cord1 .wire{
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  width: 15px;
+  height: 200px;
+}
+.cord1 .cord_bottom{
+  height: 35px;
+  width: 25px;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: -5px;
+}
+.cord1 .cord_middle{
+  height: 70px;
+  width: 45px;
+  border: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-radius: 5px;
+  margin-left: -15px;
+}
+.cord1 .cord_middle .smile .eye1{
+  height: 7px;
+  width: 7px;
+  background-color: #47525D;
+  border-radius: 50%;
+  left: 10px;
+  top: 15px;
+}
+.cord1 .cord_middle .smile .eye2{
+  height: 7px;
+  width: 7px;
+  background-color: #47525D;
+  border-radius: 50%;
+  right: 10px;
+  top: 15px;
+}
+.cord1 .cord_middle .smile .mouth{
+  width: 13px;
+  height: 7px;
+  top: 30px;
+  left: 16px;
+  background-color: #fff;
+  border: 3px solid #47525D;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  transition: ease 0.1s;
+}
+.cord1:hover .cord_middle .smile .mouth{
+  border-bottom-left-radius: 17px;
+  border-left: 3px solid #47525D;
+  border-bottom-right-radius: 17px;
+  border-right: 3px solid #47525D;
+  left: 13px;
+}
+.cord1 .cord_top{
+  background-color: #DADCDF;
+  height: 30px;
+  width: 30px;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-top: 4px solid #47525D;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-left: -7px;
+}
+.cord1 .cord_top .jack{
+  border: 2px solid #B0B5BA;
+  background-color: #fff;
+  position: absolute;
+  left: 10px;
+  width: 10px;
+  height: 4px;
+  border-radius: 3px;
+  top: 7px;
+}
+
+.cord2{
+  margin-right: 140px;
+  margin-top: 36px;
+}
+.cord2 .wire{
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  width: 15px;
+  height: 200px;
+  background-color: #899097;
+}
+.cord2 .cord_bottom{
+  height: 20px;
+  width: 35px;
+  background-color: #899097;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-left: -11px;
+}
+.cord2 .cord_middle{
+  height: 110px;
+  width: 70px;
+  background-color: #899097;
+  border: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-radius: 5px;
+  margin-left: -28px;
+}
+.cord2 .cord_middle .smile .eye1{
+  height: 10px;
+  width: 10px;
+  background-color: #47525D;
+  border-radius: 50%;
+  left: 15px;
+  top: 15px;
+}
+.cord2 .cord_middle .smile .eye2{
+  height: 10px;
+  width: 10px;
+  background-color: #47525D;
+  border-radius: 50%;
+  right: 15px;
+  top: 15px;
+}
+.cord2 .cord_middle .smile .mouth{
+  width: 20px;
+  height: 8px;
+  top: 38px;
+  left: 24px;
+  border: 3px solid #47525D;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  transition: ease 0.1s;
+}
+.cord2:hover .cord_middle .smile .mouth{
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  background-color: #6C757D;
+  border-top: 3px solid #47525D;
+  border-left: 3px solid #47525D;
+  border-right: 3px solid #47525D;
+  left: 22px;
+}
+.cord2 .cord_top{
+  height: 45px;
+  width: 45px;
+  background-color: #DAD1B2;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-top: 4px solid #47525D;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-left: -15px;
+}
+.cord2 .cord_top .jack1{
+  background-color: #BCA98F;
+  position: absolute;
+  left: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  top: 12px;
+}
+.cord2 .cord_top .jack2{
+  background-color: #BCA98F;
+  position: absolute;
+  right: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  top: 12px;
+}
+
+.cord3 .cord_top .jack1{
+  background-color: #A3A9AE;
+  position: absolute;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
+.cord3 .cord_top .jack2{
+  background-color: #A3A9AE;
+  position: absolute;
+  left: 45px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
+.cord3 .cord_top .jack3{
+  background-color: #A3A9AE;
+  position: absolute;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
+
+
+
+.cord3 .wire{
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  width: 15px;
+  height: 200px;
+  background-color: #899097;
+}
+.cord3 .cord_bottom{
+  height: 40px;
+  width: 70px;
+  background-color: #84BEF4;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-left: -27px;
+}
+.cord3 .cord_middle{
+  height: 140px;
+  width: 160px;
+  background-color: #84BEF4;
+  border: 4px solid #47525D;
+  border-bottom: 4px solid #47525D;
+  border-radius: 10px;
+  margin-left: -73px;
+}
+.cord3 .cord_middle .smile .eye1{
+  width: 13px;
+  height: 7px;
+  top: 25px;
+  left: 40px;
+  background-color: #84BEF4;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border: 3px solid #47525D;
+  border-top: 0;
+}
+.cord3 .cord_middle .smile .eye2{
+  width: 13px;
+  height: 7px;
+  top: 25px;
+  right: 40px;
+  background-color: #84BEF4;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border: 3px solid #47525D;
+  border-top: 0;
+}
+.cord3:hover .cord_middle .smile .eye1,
+.cord3:hover .cord_middle .smile .eye2{
+  border-top: 3px solid #47525D;
+  top: 22px;
+}
+.cord3 .cord_middle .smile .mouth{
+  border-top: 3px solid #47525D;
+  width: 30px;
+  top: 50px;
+  left: 65px;
+  transition: ease 0.1s;
+}
+.cord3:hover .cord_middle .smile .mouth{
+  width: 30px;
+  height: 15px;
+  top: 50px;
+  left: 62px;
+  background-color: #52A5EF;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border: 3px solid #47525D;
+}
+.cord3:hover .cord_middle .smile .mouth .teeth1{
+  background-color: #fff;
+  height: 5px;
+  width: 7px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  left: 5px;
+}
+.cord3:hover .cord_middle .smile .mouth .teeth2{
+  background-color: #fff;
+  height: 5px;
+  width: 7px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  right: 5px;
+}
+.cord3 .cord_middle .line_container{
+  margin-top: 80px;
+}
+.cord3 .cord_middle .line{
+  background-color: #66AEF1;
+  height: 3px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.cord3 .screw_top1{
+  margin-right: 20px;
+  height: 9px;
+  width: 7px;
+  background-color: #DADCDF;
+  border: 4px solid #47525D;
+  border-bottom: 0;
+  left: -62px;
+  top: 21px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cord3 .screw_top2{
+  margin-right: 20px;
+  height: 9px;
+  width: 7px;
+  background-color: #DADCDF;
+  border: 4px solid #47525D;
+  border-bottom: 0;
+  right: -10px;
+  top: 21px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cord3 .screw_bottom1{
+  margin-right: 20px;
+  height: 40px;
+  width: 15px;
+  background-color: #84BEF4;
+  border: 4px solid #47525D;
+  border-top: 0;
+  left: -60px;
+  top: 0px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.cord3 .screw_bottom2{
+  margin-right: 20px;
+  height: 40px;
+  width: 15px;
+  background-color: #84BEF4;
+  border: 4px solid #47525D;
+  border-top: 0;
+  right: -10px;
+  top: 0px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.cord3 .screw_bottom1 .line1, .cord3 .screw_bottom2 .line1{
+  background-color: #66AEF1;
+  height: 100%;
+  width: 2px;
+  margin-left: 4px;
+}
+.cord3 .screw_bottom1 .line2, .cord3 .screw_bottom2 .line2{
+  background-color: #66AEF1;
+  height: 100%;
+  width: 2px;
+  margin-left: 4px;
+}
+.cord3 .cord_top{
+  height: 30px;
+  width: 100px;
+  background-color: #DADCDF;
+  border-left: 4px solid #47525D;
+  border-right: 4px solid #47525D;
+  border-top: 4px solid #47525D;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-left: -42px;
+}
+.cord3 .cord_top .jack1{
+  background-color: #A3A9AE;
+  position: absolute;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
+.cord3 .cord_top .jack2{
+  background-color: #A3A9AE;
+  position: absolute;
+  left: 45px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
+.cord3 .cord_top .jack3{
+  background-color: #A3A9AE;
+  position: absolute;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+}
